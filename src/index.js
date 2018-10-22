@@ -1,3 +1,5 @@
+import React from react;
+
 // Create a new component. This component should produce some HTML.
 
 const App = function() {
@@ -5,3 +7,4 @@ const App = function() {
 }
 
 // Take this compnent's generated HTML and place it onto the page.
+React.render(App);
